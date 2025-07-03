@@ -60,6 +60,8 @@ management:
           server:
             requests: true
   observations:
+    httpclient:
+      enabled: true
     key-values:
       'service.name': ${SPRING_APPLICATION_NAME:petclinic}
       namespace: ${NAMESPACE:default}
