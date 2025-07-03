@@ -22,6 +22,9 @@ spring:
     open-in-view: false
     hibernate:
       ddl-auto: none
+  reactor:
+    context-propagation:
+      enabled: true
 
 # Spring Boot 1.5 makes actuator secure by default
 management.security.enabled: false
